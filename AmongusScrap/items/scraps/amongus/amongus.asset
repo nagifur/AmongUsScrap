@@ -23,17 +23,28 @@ MonoBehaviour:
   requiresBattery: 0
   isConductiveMetal: 0
   weight: 10
-  prefab: {fileID: 118346095741369115, guid: c664425319dde7e4ebe74d462b014014, type: 3}
+  prefab: {fileID: 8430995116271888700, guid: c664425319dde7e4ebe74d462b014014, type: 3}
   grabSFX: ShovelSwing
   dropSFX: pickupmongus
   verticalOffset: 0.06
   restingRotation: {x: -90, y: 0, z: 0}
-  positionOffset: {x: 0.083, y: 0.124, z: 0.043}
+  positionOffset: {x: -0.125, y: 0.077, z: 0.058}
   rotationOffset: {x: -165.14, y: -91.146, z: -115.787}
   meshVariants: []
-  materialVariants: []
+  materialVariants:
+  - {fileID: 2100000, guid: d7f77a82b0e75ed40aa9064e27ef7025, type: 2}
+  - {fileID: 2100000, guid: 66aca8dd3ab68234da1054ee39576a75, type: 2}
+  - {fileID: 2100000, guid: 564cc2aab117b614892ce723abf62d5d, type: 2}
+  - {fileID: 2100000, guid: f688d4858c861c44aa05363dce5a8bda, type: 2}
+  - {fileID: 2100000, guid: 79ec27aef91ad99439ba0076926a06ea, type: 2}
+  - {fileID: 2100000, guid: 3e35962b31ba9f44c9b036f679931496, type: 2}
+  - {fileID: 2100000, guid: c1443a964b211d84989659c4235cf842, type: 2}
+  - {fileID: 2100000, guid: 779ae25309acbbb47a855f1585b8e518, type: 2}
+  - {fileID: 2100000, guid: 02f50a7028c43bc45b7bc5d1e11750f9, type: 2}
+  - {fileID: 2100000, guid: 9c949c58bc84e5d418455897d29c2630, type: 2}
+  - {fileID: 2100000, guid: 68984be105dd08843a090370d5a79fc9, type: 2}
   useGlobalSpawnWeight: 1
-  globalSpawnWeight: 40
+  globalSpawnWeight: 100
   _perPlanetSpawnWeight:
   - SceneName: 41 Experimentation
     SpawnWeight: 6
@@ -51,6 +62,186 @@ MonoBehaviour:
     SpawnWeight: 18
   - SceneName: 8 Titan
     SpawnWeight: 15
+  - SceneName: Others
+    SpawnWeight: 10
+  - SceneName: Others
+    SpawnWeight: 10
+  - SceneName: Others
+    SpawnWeight: 10
+  - SceneName: Others
+    SpawnWeight: 10
+  - SceneName: Others
+    SpawnWeight: 10
+  - SceneName: Others
+    SpawnWeight: 10
+  - SceneName: Others
+    SpawnWeight: 10
+  - SceneName: Others
+    SpawnWeight: 10
+  - SceneName: Others
+    SpawnWeight: 10
+  - SceneName: Others
+    SpawnWeight: 10
+  - SceneName: Others
+    SpawnWeight: 10
+  - SceneName: Others
+    SpawnWeight: 10
+  - SceneName: Others
+    SpawnWeight: 10
+  - SceneName: Others
+    SpawnWeight: 10
+  - SceneName: Others
+    SpawnWeight: 10
+  - SceneName: Others
+    SpawnWeight: 10
+  - SceneName: Others
+    SpawnWeight: 10
+  - SceneName: Others
+    SpawnWeight: 10
+  - SceneName: Others
+    SpawnWeight: 10
+  - SceneName: Others
+    SpawnWeight: 10
+  - SceneName: Others
+    SpawnWeight: 10
+  - SceneName: Others
+    SpawnWeight: 10
+  - SceneName: Others
+    SpawnWeight: 10
+  - SceneName: Others
+    SpawnWeight: 10
+  - SceneName: Others
+    SpawnWeight: 10
+  - SceneName: Others
+    SpawnWeight: 10
+  - SceneName: Others
+    SpawnWeight: 10
+  - SceneName: Others
+    SpawnWeight: 10
+  - SceneName: Others
+    SpawnWeight: 10
+  - SceneName: Others
+    SpawnWeight: 10
+  - SceneName: Others
+    SpawnWeight: 10
+  - SceneName: Others
+    SpawnWeight: 10
+  - SceneName: Others
+    SpawnWeight: 10
+  - SceneName: Others
+    SpawnWeight: 10
+  - SceneName: Others
+    SpawnWeight: 10
+  - SceneName: Others
+    SpawnWeight: 10
+  - SceneName: Others
+    SpawnWeight: 10
+  - SceneName: Others
+    SpawnWeight: 10
+  - SceneName: Others
+    SpawnWeight: 10
+  - SceneName: Others
+    SpawnWeight: 10
+  - SceneName: Others
+    SpawnWeight: 10
+  - SceneName: Others
+    SpawnWeight: 10
+  - SceneName: Others
+    SpawnWeight: 10
+  - SceneName: Others
+    SpawnWeight: 10
+  - SceneName: Others
+    SpawnWeight: 10
+  - SceneName: Others
+    SpawnWeight: 10
+  - SceneName: Others
+    SpawnWeight: 10
+  - SceneName: Others
+    SpawnWeight: 10
+  - SceneName: Others
+    SpawnWeight: 10
+  - SceneName: Others
+    SpawnWeight: 10
+  - SceneName: Others
+    SpawnWeight: 10
+  - SceneName: Others
+    SpawnWeight: 10
+  - SceneName: Others
+    SpawnWeight: 10
+  - SceneName: Others
+    SpawnWeight: 10
+  - SceneName: Others
+    SpawnWeight: 10
+  - SceneName: Others
+    SpawnWeight: 10
+  - SceneName: Others
+    SpawnWeight: 10
+  - SceneName: Others
+    SpawnWeight: 10
+  - SceneName: Others
+    SpawnWeight: 10
+  - SceneName: Others
+    SpawnWeight: 10
+  - SceneName: Others
+    SpawnWeight: 10
+  - SceneName: Others
+    SpawnWeight: 10
+  - SceneName: Others
+    SpawnWeight: 10
+  - SceneName: Others
+    SpawnWeight: 10
+  - SceneName: Others
+    SpawnWeight: 10
+  - SceneName: Others
+    SpawnWeight: 10
+  - SceneName: Others
+    SpawnWeight: 10
+  - SceneName: Others
+    SpawnWeight: 10
+  - SceneName: Others
+    SpawnWeight: 10
+  - SceneName: Others
+    SpawnWeight: 10
+  - SceneName: Others
+    SpawnWeight: 10
+  - SceneName: Others
+    SpawnWeight: 10
+  - SceneName: Others
+    SpawnWeight: 10
+  - SceneName: Others
+    SpawnWeight: 10
+  - SceneName: Others
+    SpawnWeight: 10
+  - SceneName: Others
+    SpawnWeight: 10
+  - SceneName: Others
+    SpawnWeight: 10
+  - SceneName: Others
+    SpawnWeight: 10
+  - SceneName: Others
+    SpawnWeight: 10
+  - SceneName: Others
+    SpawnWeight: 10
+  - SceneName: Others
+    SpawnWeight: 10
+  - SceneName: Others
+    SpawnWeight: 10
+  - SceneName: Others
+    SpawnWeight: 10
+  - SceneName: Others
+    SpawnWeight: 10
+  - SceneName: Others
+    SpawnWeight: 10
+  - SceneName: Others
+    SpawnWeight: 10
+  - SceneName: Others
+    SpawnWeight: 10
+  - SceneName: Others
+    SpawnWeight: 10
+  - SceneName: Others
+    SpawnWeight: 10
+  - SceneName: Others
+    SpawnWeight: 10
   - SceneName: Others
     SpawnWeight: 10
   - SceneName: Others
@@ -96,4 +287,4 @@ MonoBehaviour:
   - Fart3
   - Fart5
   serializedData: 41 Experimentation,6;220 Assurance,7;56 Vow,8;21 Offense,11;61
-    March,12;85 Rend,16;7 Dine,18;8 Titan,15;Others,10;Others,10
+    March,12;85 Rend,16;7 Dine,18;8 Titan,15;Others,10;Others,10;Others,10;Others,10;Others,10;Others,10;Others,10;Others,10;Others,10;Others,10;Others,10;Others,10;Others,10;Others,10;Others,10;Others,10;Others,10;Others,10;Others,10;Others,10;Others,10;Others,10;Others,10;Others,10;Others,10;Others,10;Others,10;Others,10;Others,10;Others,10;Others,10;Others,10;Others,10;Others,10;Others,10;Others,10;Others,10;Others,10;Others,10;Others,10;Others,10;Others,10;Others,10;Others,10;Others,10;Others,10;Others,10;Others,10;Others,10;Others,10;Others,10;Others,10;Others,10;Others,10;Others,10;Others,10;Others,10;Others,10;Others,10;Others,10;Others,10;Others,10;Others,10;Others,10;Others,10;Others,10;Others,10;Others,10;Others,10;Others,10;Others,10;Others,10;Others,10;Others,10;Others,10;Others,10;Others,10;Others,10;Others,10;Others,10;Others,10;Others,10;Others,10;Others,10;Others,10;Others,10;Others,10;Others,10;Others,10;Others,10;Others,10;Others,10
