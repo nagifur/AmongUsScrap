@@ -23,5 +23,6 @@ MonoBehaviour:
   description: Mod that adds amongus crewmate scrap items
   scraps:
   - {fileID: 11400000, guid: 8cd8a72d5c927ae4d8b1bbd2571e8e50, type: 2}
+  - {fileID: 11400000, guid: c8b2bbc080dd54845b8aa440c28c2ecc, type: 2}
   moons: []
   assetBank: {fileID: 11400000, guid: 2a7fdfc3d27635646a937367685c567d, type: 2}

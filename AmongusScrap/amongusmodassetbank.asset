@@ -16,8 +16,12 @@ MonoBehaviour:
   - AudioClipName: pickupmongus
     AudioClipPath: 
     AudioClip: {fileID: 8300000, guid: 498f1f0aac704f447b4758b9fa3878a1, type: 3}
+  - AudioClipName: emergency
+    AudioClipPath: 
+    AudioClip: {fileID: 8300000, guid: a03ccfcb6744c2d48b95ec3959ff50d4, type: 3}
   _planetPrefabs: []
   _networkPrefabs: []
-  serializedAudioClips: pickupmongus,Assets/Mods/AmongusScrap/pickupmongus.mp3
+  serializedAudioClips: pickupmongus,Assets/Mods/AmongusScrap/pickupmongus.mp3;emergency,Assets/Mods/AmongusScrap/among
+    us emergency meeting - sound effect hd.mp3
   serializedPlanetPrefabs: 
   serializedNetworkPrefabs: 
