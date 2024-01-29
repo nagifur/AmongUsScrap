@@ -10,30 +10,30 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 414444751, guid: 2c2d93d7e414a7b4ba3e95d0415d5042, type: 3}
-  m_Name: button
+  m_Name: skibidimongus
   m_EditorClassIdentifier: 
   RequiredBundles: []
   IncompatibleBundles: []
-  scrapType: 3
-  itemName: Emergency Meeting Button
-  minValue: 60
-  maxValue: 130
-  twoHanded: 0
-  HandedAnimation: 0
+  scrapType: 0
+  itemName: Skibidi Amongus
+  minValue: 120
+  maxValue: 200
+  twoHanded: 1
+  HandedAnimation: 1
   requiresBattery: 0
   isConductiveMetal: 0
-  weight: 15
-  prefab: {fileID: 6194251738790839839, guid: 5322c19b87d352b47a4dad53931aa8be, type: 3}
-  grabSFX: ShovelReelUp
-  dropSFX: ShovelSwing
+  weight: 60
+  prefab: {fileID: 1765441223116973270, guid: 9e166bfe4195f514ca2321d40508773b, type: 3}
+  grabSFX: ShovelSwing
+  dropSFX: pickupmongus
   verticalOffset: 0.06
   restingRotation: {x: 0, y: 0, z: 0}
-  positionOffset: {x: 0.053, y: 0.057, z: -0.021}
-  rotationOffset: {x: 358.31824, y: 207.00197, z: 93.6488}
+  positionOffset: {x: 0.013, y: -0.112, z: 0.328}
+  rotationOffset: {x: 310.4363, y: 56.893463, z: 304.82858}
   meshVariants: []
   materialVariants: []
   useGlobalSpawnWeight: 1
-  globalSpawnWeight: 40
+  globalSpawnWeight: 8
   _perPlanetSpawnWeight:
   - SceneName: 41 Experimentation
     SpawnWeight: 6
@@ -45,16 +45,6 @@ MonoBehaviour:
     SpawnWeight: 11
   - SceneName: 61 March
     SpawnWeight: 12
-  - SceneName: 85 Rend
-    SpawnWeight: 16
-  - SceneName: 7 Dine
-    SpawnWeight: 18
-  - SceneName: 8 Titan
-    SpawnWeight: 15
-  - SceneName: Others
-    SpawnWeight: 10
-  - SceneName: Others
-    SpawnWeight: 10
   playetSpawnBlacklist: []
   shovelHitForce: 1
   shovelAudio: {fileID: 0}
@@ -80,15 +70,15 @@ MonoBehaviour:
   noiseAudio: {fileID: 0}
   noiseAudioFar: {fileID: 0}
   noiseSFX:
-  - emergency
+  - ClownHorn1
   noiseSFXFar:
   - ClownHornFar
-  noiseRange: 200
-  maxLoudness: 1.2
-  minLoudness: 0.8
+  noiseRange: 60
+  maxLoudness: 1
+  minLoudness: 0.6
   minPitch: 0.93
   maxPitch: 1
-  triggerAnimator: {fileID: 494389335564408410, guid: 5322c19b87d352b47a4dad53931aa8be, type: 3}
+  triggerAnimator: {fileID: 0}
   whoopieCushionAudio: {fileID: 0}
   fartAudios:
   - Fart1
@@ -96,4 +86,4 @@ MonoBehaviour:
   - Fart3
   - Fart5
   serializedData: 41 Experimentation,6;220 Assurance,7;56 Vow,8;21 Offense,11;61
-    March,12;85 Rend,16;7 Dine,18;8 Titan,15;Others,10;Others,10
+    March,12
