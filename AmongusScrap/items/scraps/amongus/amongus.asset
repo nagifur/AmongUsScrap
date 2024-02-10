@@ -44,7 +44,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 9c949c58bc84e5d418455897d29c2630, type: 2}
   - {fileID: 2100000, guid: 68984be105dd08843a090370d5a79fc9, type: 2}
   useGlobalSpawnWeight: 1
-  globalSpawnWeight: 40
+  globalSpawnWeight: 25
   _perPlanetSpawnWeight:
   - SceneName: 41 Experimentation
     SpawnWeight: 6
